@@ -1,0 +1,10 @@
+<h1>My Artist</h1>
+
+<h3><%= @artist.name %></h3>
+<p><%= @artist.bio %></p>
+
+<p><%= link_to 'Click here', edit_artist_path(@artist) %> to edit this profile.</p>
+
+<p>To delete this profile click the button below.</p>
+
+<%= button_to 'Delete Profile', @artist, method: :delete, data: {confirm: "Are you sure?"} %>

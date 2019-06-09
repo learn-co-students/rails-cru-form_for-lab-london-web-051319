@@ -2,13 +2,32 @@
 <html>
 <head>
   <title>BeatsByRails</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag "application", "assets/styles.css" %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
-<%= yield %>
+   <div class="wrapper">
+         <header class="page_header">
+            <div class="nav_bar">
+               <%= link_to 'Home', home_path %> &emsp;
+               <%= link_to 'All Artists', artists_path %> &emsp;
+               <%= link_to 'New Artist', new_artist_path(@artist) %>&emsp;
+               <%= link_to 'All Songs', songs_path %>&emsp;
+               <%= link_to 'New Song', new_song_path(@song)  %> &emsp;
+               <%= link_to 'All Genres', genres_path %>&emsp;
+               <%= link_to 'New Genre', new_genre_path(@genre)  %> &emsp;
+            </div>
+
+            <div class="head_logo">
+               <img class="logo" src="/assets/Flatiron-School-Logo.png" alt="The FlatIron school logo.">
+            </div>
+         </header>
+      <hr>
+      <div class="body_content">
+         <%= yield %>
+      </div>
 
 </body>
 </html>
