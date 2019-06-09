@@ -1,0 +1,43 @@
+body {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   font-family: Arial, sans-serif;
+}
+
+.wrapper {
+   min-width: 900px;
+   width: 80vw;
+}
+
+.page_header {
+   display: flex;
+   flex-direction: row;
+   max-width: 100%;
+   padding: 20px;
+}
+
+.page_header .nav_bar {
+   display: flex;
+   align-items: center;
+   flex-grow: 3;
+}
+
+.head_logo {
+   display: flex;
+   align-items: center;
+   height: 50px;
+   width: 200px;
+   align-self: center;
+   flex-grow: 1;
+}
+
+.head_logo .logo {
+   height: 40px;
+   width: auto;
+}
+
+.body_content {
+   padding: 15px;
+}

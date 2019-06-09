@@ -1,0 +1,9 @@
+<h1>My Genre</h1>
+
+<h3><%= @genre.name %></h3>
+
+<p><%= link_to 'Click here', edit_genre_path(@genre) %> to edit the information for this genre.</p>
+
+<p>To delete this genre, click the button below.</p>
+
+<%= button_to 'Delete Profile', @genre, method: :delete, data: {confirm: "Are you sure?"} %>

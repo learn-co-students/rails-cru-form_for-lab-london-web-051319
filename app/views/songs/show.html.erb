@@ -1,0 +1,11 @@
+<h1>My Song</h1>
+
+<h3> <%=@song.name%> </h3>
+
+<p><%= link_to 'Click here', edit_song_path(@song) %> to edit this song.</p>
+
+<%= link_to 'My Genre', genre_path(@genre) %> &emsp;
+<%= link_to 'My Artist', artist_path(@artist) %>
+
+<p>If you want to delete this song, click the link below.</p>
+<%= button_to 'Delete Song', @song, method: :delete, data: {confirm: "Are you sure?"} %>
