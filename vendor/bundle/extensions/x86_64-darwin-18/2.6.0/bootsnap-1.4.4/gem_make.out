@@ -1,0 +1,15 @@
+current directory: /Users/Moniet97/Dropbox/Programming/FLATIRON/module-2/week-2/rails-cru-form_for-lab-london-web-051319/vendor/bundle/gems/bootsnap-1.4.4/ext/bootsnap
+/Users/Moniet97/.rvm/rubies/ruby-2.6.3/bin/ruby -I /Users/Moniet97/.rvm/rubies/ruby-2.6.3/lib/ruby/2.6.0 -r ./siteconf20190610-40760-3540m4.rb extconf.rb
+creating Makefile
+
+current directory: /Users/Moniet97/Dropbox/Programming/FLATIRON/module-2/week-2/rails-cru-form_for-lab-london-web-051319/vendor/bundle/gems/bootsnap-1.4.4/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /Users/Moniet97/Dropbox/Programming/FLATIRON/module-2/week-2/rails-cru-form_for-lab-london-web-051319/vendor/bundle/gems/bootsnap-1.4.4/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/Moniet97/Dropbox/Programming/FLATIRON/module-2/week-2/rails-cru-form_for-lab-london-web-051319/vendor/bundle/gems/bootsnap-1.4.4/ext/bootsnap
+make "DESTDIR=" install
+/usr/local/bin/ginstall -c -m 0755 bootsnap.bundle ./.gem.20190610-40760-1e8esvi/bootsnap

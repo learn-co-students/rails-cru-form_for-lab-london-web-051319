@@ -1,0 +1,19 @@
+current directory: /Users/Moniet97/Dropbox/Programming/FLATIRON/module-2/week-2/rails-cru-form_for-lab-london-web-051319/vendor/bundle/gems/byebug-11.0.1/ext/byebug
+/Users/Moniet97/.rvm/rubies/ruby-2.6.3/bin/ruby -I /Users/Moniet97/.rvm/rubies/ruby-2.6.3/lib/ruby/2.6.0 -r ./siteconf20190610-40760-1e77kr8.rb extconf.rb
+creating Makefile
+
+current directory: /Users/Moniet97/Dropbox/Programming/FLATIRON/module-2/week-2/rails-cru-form_for-lab-london-web-051319/vendor/bundle/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /Users/Moniet97/Dropbox/Programming/FLATIRON/module-2/week-2/rails-cru-form_for-lab-london-web-051319/vendor/bundle/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/Moniet97/Dropbox/Programming/FLATIRON/module-2/week-2/rails-cru-form_for-lab-london-web-051319/vendor/bundle/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR=" install
+/usr/local/bin/ginstall -c -m 0755 byebug.bundle ./.gem.20190610-40760-1qheuud/byebug

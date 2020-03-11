@@ -1,0 +1,13 @@
+current directory: /Users/Moniet97/Dropbox/Programming/FLATIRON/module-2/week-2/rails-cru-form_for-lab-london-web-051319/vendor/bundle/gems/json-1.8.6/ext/json
+/Users/Moniet97/.rvm/rubies/ruby-2.6.3/bin/ruby -I /Users/Moniet97/.rvm/rubies/ruby-2.6.3/lib/ruby/2.6.0 -r ./siteconf20190610-40760-1jomtbb.rb extconf.rb
+creating Makefile
+
+current directory: /Users/Moniet97/Dropbox/Programming/FLATIRON/module-2/week-2/rails-cru-form_for-lab-london-web-051319/vendor/bundle/gems/json-1.8.6/ext/json
+make "DESTDIR=" clean
+
+current directory: /Users/Moniet97/Dropbox/Programming/FLATIRON/module-2/week-2/rails-cru-form_for-lab-london-web-051319/vendor/bundle/gems/json-1.8.6/ext/json
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /Users/Moniet97/Dropbox/Programming/FLATIRON/module-2/week-2/rails-cru-form_for-lab-london-web-051319/vendor/bundle/gems/json-1.8.6/ext/json
+make "DESTDIR=" install

@@ -1,0 +1,10 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Songs</h1>
+<% @songs.each do |song| %>
+  <p><%= song.name %></p>
+  <p><%= song.artist_id %></p>
+  <p><%= song.genre_id %></p>
+<% end %>
+
+<%= link_to 'New Song', new_song_path %>
